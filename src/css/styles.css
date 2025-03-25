@@ -1,0 +1,36 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery-item {
+  list-style: none;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.message {
+  display: block;
+
+  padding-bottom: 5px;
+}
+
+.email{
+  display: block;
+}
+
+.submit-btn{
+  width: fit-content;
+}
