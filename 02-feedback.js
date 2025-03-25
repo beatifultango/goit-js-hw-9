@@ -1,0 +1,2 @@
+import"./assets/styles-DxoB8clx.js";document.getElementById("feedback-form").addEventListener("submit",a=>{a.preventDefault();const e=a.target,m=e.email.value,o=e.message.value;let t=JSON.parse(localStorage.getItem("feedback_form_state"))||[];t.push({email:m,message:o}),localStorage.setItem("feedback-form-state",JSON.stringify(t)),e.reset(),localStorage.removeItem(t)});
+//# sourceMappingURL=02-feedback.js.map
